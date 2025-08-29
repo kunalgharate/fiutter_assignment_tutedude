@@ -87,7 +87,7 @@ class _CardConnectPageState extends State<CardConnectPage> {
           children: [
             const SizedBox(height: 16),
 
-            // Profile Selection
+            // Profile Selectionq
             _buildProfileSelection(),
             
             const SizedBox(height: 16),
