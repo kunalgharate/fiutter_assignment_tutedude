@@ -20,26 +20,28 @@ Simply click on any assignment tab to view its implementation and functionality.
 ## Screenshots
 
 ### Main Page
-![Main Page](screenshots/main.png)
+<img src="screenshots/main.png" width="250" alt="Main Page">
 
 ### Assignment 1 - Asset Image
-![Assignment 1 Asset Image](screenshots/assignment1_asset_img.png)
+<img src="screenshots/assignment1_asset_img.png" width="250" alt="Assignment 1 Asset Image">
 
 ### Assignment 1 - Network Image
-![Assignment 1 Network Image](screenshots/assignment1_network_img.png)
+<img src="screenshots/assignment1_network_img.png" width="250" alt="Assignment 1 Network Image">
 
 ### Assignment 2 - Card Layout
-![Assignment 2 Card](screenshots/card_assignment2.png)
+<img src="screenshots/card_assignment2.png" width="250" alt="Assignment 2 Card">
 
 ### Assignment 3
-![Assignment 3](screenshots/assignment3.png)
+<img src="screenshots/assignment3.png" width="250" alt="Assignment 3">
 
 ### Assignment 4
-![Assignment 4](screenshots/assignment4.png)
+<img src="screenshots/assignment4.png" width="250" alt="Assignment 4">
 
 ### Assignment 5 - BMI Calculator
-![Assignment 5](screenshots/assignment_5.png)
-![Assignment 5 Results](screenshots/assignment_5_2.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="screenshots/assignment_5.png" width="250" alt="Assignment 5">
+  <img src="screenshots/assignment_5_2.png" width="250" alt="Assignment 5 Results">
+</div>
 
 Features:
 - Dynamic gender-based theming with icon color extraction
@@ -55,8 +57,10 @@ Features:
 - Enhanced text visibility on all background colors
 
 ### Assignment 6 - TMDB Movie App
-![Assignment 6](screenshots/assignment_6.png)
-![Assignment 6 Details](screenshots/assignment_6_2.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="screenshots/assignment_6.png" width="250" alt="Assignment 6">
+  <img src="screenshots/assignment_6_2.png" width="250" alt="Assignment 6 Details">
+</div>
 
 Features:
 - Netflix-themed UI with black background and red accents
@@ -71,11 +75,15 @@ Features:
 - HTTP requests using the http package for REST API communication
 
 ### Assignment 7 - Poképedia - Pokemon App
-![Assignment 7](screenshots/assignment7_1.png)
-![Assignment 7](screenshots/assignment7_2.png)
-![Assignment 7](screenshots/assignment7_3.png)
-![Assignment 7](screenshots/assignment7_4.png)
-![Assignment 7](screenshots/assignment7_5.png)
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="screenshots/assignment7_1.png" width="250" alt="Assignment 7 Login">
+  <img src="screenshots/assignment7_2.png" width="250" alt="Assignment 7 Pokemon List">
+  <img src="screenshots/assignment7_3.png" width="250" alt="Assignment 7 Search">
+</div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+  <img src="screenshots/assignment7_4.png" width="250" alt="Assignment 7 Details">
+  <img src="screenshots/assignment7_5.png" width="250" alt="Assignment 7 Dark Mode">
+</div>
 
 Features:
 - Login screen with Lottie animation and trainer name input
