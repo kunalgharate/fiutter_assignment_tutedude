@@ -12,7 +12,7 @@ This project contains 8 assignment tabs that you can navigate through to explore
 4. **Assignment 4** - Fun Packages Implementation
 5. **Assignment 5** - BMI Calculator with Form Validation & Input Fields
 6. **Assignment 6** - TMDB Movie App - API Integration
-7. **Assignment 7** - [Description]
+7. **Assignment 7** - Poképedia - Pokemon App with Lottie Animation
 8. **Assignment 8** - [Description]
 
 Simply click on any assignment tab to view its implementation and functionality.
@@ -69,6 +69,24 @@ Features:
 - Netflix-style play button and UI elements
 - Responsive design with proper image error handling
 - HTTP requests using the http package for REST API communication
+
+### Assignment 7 - Poképedia - Pokemon App
+![Assignment 7](screenshots/assignment7.png)
+![Assignment 7 Details](screenshots/assignment7_2.png)
+
+Features:
+- Login screen with Lottie animation and trainer name input
+- PokéAPI integration for fetching Pokemon data from official API
+- Grid layout displaying Pokemon with images, names, types, and IDs
+- Search functionality with real-time filtering by Pokemon name
+- Dark mode toggle with complete UI theming support
+- Favorite Pokemon system with heart icons and favorites dialog
+- Detailed Pokemon pages with stats, abilities, and type information
+- Type-based color theming with 18 different Pokemon type colors
+- Custom animations including staggered card entry and page transitions
+- Enhanced error handling with network connectivity detection
+- Pull-to-refresh functionality and loading states
+- Hero animations and smooth navigation between screens
 
 ## Getting Started
 

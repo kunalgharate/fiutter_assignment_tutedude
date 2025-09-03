@@ -40,6 +40,18 @@ dependencies:
   
   # SVG support for vector graphics
   flutter_svg: ^2.0.9
+  
+  # Lottie animations
+  lottie: ^3.1.0
+  
+  # Google Fonts
+  google_fonts: ^6.1.0
+  
+  # Flutter SpinKit for loading animations
+  flutter_spinkit: ^5.2.0
+  
+  # Connectivity checker
+  connectivity_plus: ^6.0.3
 
 dev_dependencies:
   flutter_test:

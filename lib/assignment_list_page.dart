@@ -4,6 +4,7 @@ import 'package:fiutter_assignment/features/interactive_counter/interactive_coun
 import 'package:fiutter_assignment/features/fun_packages/fun_packages_page.dart';
 import 'package:fiutter_assignment/features/bmi_calculator/bmi_calculator_page.dart';
 import 'package:fiutter_assignment/features/movie_app/movie_list_page.dart';
+import 'package:fiutter_assignment/features/pokemon_app/pokemon_login_page.dart';
 import 'package:flutter/material.dart';
 
 class AssignmentListPage extends StatelessWidget {
@@ -17,7 +18,7 @@ class AssignmentListPage extends StatelessWidget {
     'Creative Use of Packages - Build a Fun App',
     'BMI Calculator - Form Validation & Input Fields',
     'TMDB Movie App - API Integration',
-    'Coming Soon - Assignment 7',
+    'Poképedia - Pokemon App with Lottie Animation',
     'Coming Soon - Assignment 8',
   ];
 
@@ -97,8 +98,11 @@ class AssignmentListPage extends StatelessWidget {
         );
         break;
       case 7:
-        // Coming Soon - Assignment 7
-        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Assignment 7 - Coming Soon!');
+        // Navigate to Pokemon App assignment
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const PokemonLoginPage()),
+        );
         break;
       case 8:
         // Coming Soon - Assignment 8
@@ -298,11 +302,11 @@ class AssignmentButton extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                   decoration: BoxDecoration(
-                    color: (assignmentNumber >= 1 && assignmentNumber <= 6) ? Colors.green : Colors.orange,
+                    color: (assignmentNumber >= 1 && assignmentNumber <= 7) ? Colors.green : Colors.orange,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Text(
-                    (assignmentNumber >= 1 && assignmentNumber <= 6) ? 'Available' : 'Coming Soon',
+                    (assignmentNumber >= 1 && assignmentNumber <= 7) ? 'Available' : 'Coming Soon',
                     style: const TextStyle(
                       fontSize: 10,
                       fontWeight: FontWeight.w500,

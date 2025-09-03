@@ -35,7 +35,11 @@ class _MovieListPageState extends State<MovieListPage> {
       });
     } catch (e) {
       setState(() {
-        error = e.toString();
+        error = e.toString().contains('Failed to host lookup') || 
+               e.toString().contains('Network is unreachable') ||
+               e.toString().contains('No address associated')
+            ? 'No internet connection. Please check your network and try again.'
+            : e.toString();
         isLoading = false;
       });
     }
