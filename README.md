@@ -20,7 +20,7 @@ Simply click on any assignment tab to view its implementation and functionality.
 ## Screenshots
 
 ### Main Page
-![Main Page](screenshots/main_page.png)
+![Main Page](screenshots/main.png)
 
 ### Assignment 1 - Asset Image
 ![Assignment 1 Asset Image](screenshots/assignment1_asset_img.png)
