@@ -71,8 +71,11 @@ Features:
 - HTTP requests using the http package for REST API communication
 
 ### Assignment 7 - Poképedia - Pokemon App
-![Assignment 7](screenshots/assignment7.png)
-![Assignment 7 Details](screenshots/assignment7_2.png)
+![Assignment 7](screenshots/assignment7_1.png)
+![Assignment 7](screenshots/assignment7_2.png)
+![Assignment 7](screenshots/assignment7_3.png)
+![Assignment 7](screenshots/assignment7_4.png)
+![Assignment 7](screenshots/assignment7_5.png)
 
 Features:
 - Login screen with Lottie animation and trainer name input
