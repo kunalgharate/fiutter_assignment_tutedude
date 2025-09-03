@@ -2,6 +2,8 @@ import 'package:fiutter_assignment/features/displayimage/displayimage_page.dart'
 import 'package:fiutter_assignment/features/cardconnect/card_connect_page.dart';
 import 'package:fiutter_assignment/features/interactive_counter/interactive_counter_page.dart';
 import 'package:fiutter_assignment/features/fun_packages/fun_packages_page.dart';
+import 'package:fiutter_assignment/features/bmi_calculator/bmi_calculator_page.dart';
+import 'package:fiutter_assignment/features/movie_app/movie_list_page.dart';
 import 'package:flutter/material.dart';
 
 class AssignmentListPage extends StatelessWidget {
@@ -13,10 +15,10 @@ class AssignmentListPage extends StatelessWidget {
     'Card Connect - Styling with Container',
     'Creative Use of setState()',
     'Creative Use of Packages - Build a Fun App',
-    'Form Validation & Input Fields',
-    'Navigation & Routing',
-    'State Management Basics',
-    'API Integration & HTTP Requests',
+    'BMI Calculator - Form Validation & Input Fields',
+    'TMDB Movie App - API Integration',
+    'Coming Soon - Assignment 7',
+    'Coming Soon - Assignment 8',
   ];
 
   @override
@@ -81,20 +83,26 @@ class AssignmentListPage extends StatelessWidget {
         );
         break;
       case 5:
-        // Navigate to Form Validation assignment
-        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Form Validation Assignment - Coming Soon!');
+        // Navigate to BMI Calculator assignment
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const BMICalculatorPage()),
+        );
         break;
       case 6:
-        // Navigate to Navigation assignment
-        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Navigation Assignment - Coming Soon!');
+        // Navigate to Movie App assignment
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const MovieListPage()),
+        );
         break;
       case 7:
-        // Navigate to State Management assignment
-        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'State Management Assignment - Coming Soon!');
+        // Coming Soon - Assignment 7
+        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Assignment 7 - Coming Soon!');
         break;
       case 8:
-        // Navigate to API Integration assignment
-        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'API Integration Assignment - Coming Soon!');
+        // Coming Soon - Assignment 8
+        _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Assignment 8 - Coming Soon!');
         break;
       default:
         _showAssignmentDialog(context, assignmentNumber, assignmentName, 'Assignment not implemented yet');
@@ -179,7 +187,7 @@ class AssignmentListPage extends StatelessWidget {
               onPressed: () => Navigator.of(context).pop(),
               child: const Text('Close'),
             ),
-            if (assignmentNumber >= 1 && assignmentNumber <= 4)
+            if (assignmentNumber >= 1 && assignmentNumber <= 5)
               ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).pop();
@@ -202,6 +210,11 @@ class AssignmentListPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => const FunPackagesPage()),
+                    );
+                  } else if (assignmentNumber == 5) {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const BMICalculatorPage()),
                     );
                   }
                 },
@@ -285,11 +298,11 @@ class AssignmentButton extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                   decoration: BoxDecoration(
-                    color: (assignmentNumber >= 1 && assignmentNumber <= 4) ? Colors.green : Colors.orange,
+                    color: (assignmentNumber >= 1 && assignmentNumber <= 6) ? Colors.green : Colors.orange,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Text(
-                    (assignmentNumber >= 1 && assignmentNumber <= 4) ? 'Available' : 'Coming Soon',
+                    (assignmentNumber >= 1 && assignmentNumber <= 6) ? 'Available' : 'Coming Soon',
                     style: const TextStyle(
                       fontSize: 10,
                       fontWeight: FontWeight.w500,

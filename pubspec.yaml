@@ -37,6 +37,9 @@ dependencies:
   
   # HTTP package for API calls
   http: ^1.1.0
+  
+  # SVG support for vector graphics
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:

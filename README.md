@@ -8,10 +8,10 @@ This project contains 8 assignment tabs that you can navigate through to explore
 
 1. **Assignment 1** - Image Display (Asset & Network)
 2. **Assignment 2** - Card Layout
-3. **Assignment 3** - [Description]
-4. **Assignment 4** - [Description]
-5. **Assignment 5** - [Description]
-6. **Assignment 6** - [Description]
+3. **Assignment 3** - Interactive Counter with setState()
+4. **Assignment 4** - Fun Packages Implementation
+5. **Assignment 5** - BMI Calculator with Form Validation & Input Fields
+6. **Assignment 6** - TMDB Movie App - API Integration
 7. **Assignment 7** - [Description]
 8. **Assignment 8** - [Description]
 
@@ -36,6 +36,39 @@ Simply click on any assignment tab to view its implementation and functionality.
 
 ### Assignment 4
 ![Assignment 4](screenshots/assignment4.png)
+
+### Assignment 5 - BMI Calculator
+![Assignment 5](screenshots/assignment_5.png)
+![Assignment 5 Results](screenshots/assignment_5_2.png)
+
+Features:
+- Dynamic gender-based theming with icon color extraction
+- Male theme: Teal (#4AE1DD) / Female theme: Pink (#FE719E)
+- Gender selection with asset icons and background glow effects
+- Height input with CM/Feet toggle and decimal precision for feet
+- Weight and Age adjustment with +/- buttons
+- Real-time BMI calculation with color-coded results
+- Comprehensive results page with gender-specific images
+- Ideal BMI range display and personalized recommendations
+- Weight gain/loss suggestions with precise calculations
+- Responsive design with overflow handling
+- Enhanced text visibility on all background colors
+
+### Assignment 6 - TMDB Movie App
+![Assignment 6](screenshots/assignment_6.png)
+![Assignment 6 Details](screenshots/assignment_6_2.png)
+
+Features:
+- Netflix-themed UI with black background and red accents
+- TMDB API integration for fetching popular movies
+- Grid layout displaying movie posters with ratings
+- Detailed movie pages with backdrop images and comprehensive information
+- Loading indicators and error handling with retry functionality
+- Pull-to-refresh functionality for movie list
+- Movie details including runtime, genres, release year, and overview
+- Netflix-style play button and UI elements
+- Responsive design with proper image error handling
+- HTTP requests using the http package for REST API communication
 
 ## Getting Started
 
